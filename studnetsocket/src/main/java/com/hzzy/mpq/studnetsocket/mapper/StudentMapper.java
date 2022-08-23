@@ -7,9 +7,9 @@ import org.apache.ibatis.annotations.Mapper;
 import java.util.List;
 
 /**
- * @author: duzhibin
+ * @author:
  * @description:
- * @date: create in 09:57 2022/07/01
+ * @date: create in
  */
 @Mapper
 public interface StudentMapper{

@@ -4,6 +4,7 @@ package com.hzzy.mpq.studnetsocket.entity;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 import java.util.Date;
+import java.util.List;
 
 /**
  * @author:
@@ -56,7 +57,6 @@ public class Student {
                 ", studentStatus=" + studentStatus +
                 '}';
     }
-
 
 
     public static long getSerialVesionUID() {

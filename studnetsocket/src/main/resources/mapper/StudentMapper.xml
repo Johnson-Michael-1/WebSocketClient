@@ -39,8 +39,8 @@
         </where>
     </select>
 
-    <insert id="insertStudent" parameterType="com.hzzy.mpq.studnetsocket.entity.Student" useGeneratedKeys="true" keyProperty="id">
-        insert into sys_student(
+    <insert id="insertStudent" parameterType="com.hzzy.mpq.studnetsocket.entity.Student" useGeneratedKeys="true" keyProperty="studentId">
+        insert into socket_student (
             <if test="studentName != null and studentName != ''">student_name,</if>
             <if test="studentSex != null and studentSex != ''">student_sex,</if>
             <if test="studentAge != null and studentAge != ''">student_age,</if>

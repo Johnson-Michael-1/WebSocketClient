@@ -19,12 +19,13 @@ public class StudentServiceImpl implements IStudentServiceImpl {
     @Autowired
     private StudentMapper studentMapper;
 
+    @Override
     public List findAll() {
         return studentMapper.selectStudentList();
     }
 
+    @Override
     public int addStudent(Student student) {
-
         return studentMapper.insertStudent(student);
     }
 }
